@@ -1,16 +1,3 @@
-// ---------- Google アナリティクス（labfond 全体の計測） ----------
-(function () {
-  var id = "G-GK0SS0BLJ9";
-  window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
-  window.gtag("js", new Date());
-  window.gtag("config", id);
-  var s = document.createElement("script");
-  s.async = true;
-  s.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
-  document.head.appendChild(s);
-})();
-
 (function () {
   "use strict";
   var ROOT = document.body.getAttribute("data-root") || "./";
